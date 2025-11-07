@@ -1,7 +1,3 @@
-# ============================================================
-# Prosjekt: Data Processing and Visualization (IE500417)
-# ------------------------------------------------------------
-
 # Import libraries
 import dash
 import base64
@@ -28,7 +24,7 @@ app.layout = html.Div([
     html.Div([  # Title Section
         html.H1('CSV Plotting App'),
         html.P('Plot and visualize CSV data.'),
-        html.P('Final Project for IE500417 - Data Processing and Visualization By Christian T.Kvernland')
+        html.P('By Christian T.Kvernland')
     ]),
 
     html.Div([  # Drag and Drop Section
